@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'poppins-thin';
+    src: url('../fonts/poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../fonts/poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'poppins-semiBold';
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'poppins-extraBold';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf');
+}
+
+body {
+    font-family: 'poppins-regular';
+}
+p {
+    margin: 0;
+}
+h2 {
+    font-family: 'poppins-bold';
+}
+h3 {
+    font-family: 'poppins-bold';
+    font-size: 26px;
+}
+
+
+.navbar.fixed-top {
+    border-bottom: 2px solid #dedede;
+}
+
+.banner {
+    height: 100vh;
+    display: table;
+    width: 100%;
+    background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.bannerCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner h1 {
+    font-family: 'poppins-extraBold';
+}
+.banner h4 {
+    font-family: 'poppins-semiBold';
+}
+.banner p {
+    font-family: 'poppins-bold';
+}
+
+.aboutMe {
+    padding: 60px 0;
+} 
+.aboutMe .linkBtn a {
+    color: #fff;
+}
+.aboutMe .linkBtn {
+    font-family: 'poppins-medium';
+    border: 0px;
+    background: #2c82ed;
+    padding: 4px 18px;
+    border-radius: 6px;
+}
+
+.education {
+    padding: 60px 0;
+} 
+.education .eduBox {
+    background: #f1f1f1;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+.education .percentage {
+    font-family: 'poppins-extraBold';
+    font-size: 20px;
+}
+
+.certificate {
+    padding: 60px 0;
+} 
+
+.skills {
+    padding: 60px 0;
+} 
+.skills img.html {
+    width: 90px;
+}
+.skills img.css {
+    width: 80px;
+}
+.skills img.js {
+    width: 90px;
+}
+.skills img.react {
+    width: 105px;
+}
+.skills img.bootstrap {
+    width: 110px;
+}
+.skills img.sql {
+    width: 75px;
+}
+
+.tools {
+    padding: 60px 0;
+} 
+.tools img.tool1 {
+    width: 90px;
+}
+.tools img.tool2 {
+    width: 80px;
+}
+.tools img.tool3 {
+    width: 90px;
+}
+.tools img.tool4 {
+    width: 105px;
+}
+
+
+.contact {
+    padding: 60px 0;
+}
+.contact .ConIcon {
+    width: 35px;
+}
+.contact .ConIcon img {
+    width: 20px;
+}
