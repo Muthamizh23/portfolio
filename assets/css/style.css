@@ -70,7 +70,17 @@ h3 {
 
 .aboutMe {
     padding: 60px 0;
+    color:#000000ef;
+    background-image: url(../images/background\ gif.mp4);
+    animation-name: colorChange;
+    animation-duration: 4s;
 } 
+@keyframes colorChange{
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
 .aboutMe .linkBtn a {
     color: #fff;
 }
@@ -83,7 +93,10 @@ h3 {
 }
 
 .education {
-    padding: 60px 0;
+    padding: 60px 0;   
+    background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-size: cover;
 } 
 .education .eduBox {
     background: #f1f1f1;
@@ -95,6 +108,13 @@ h3 {
     font-family: 'poppins-extraBold';
     font-size: 20px;
 }
+.row{
+    scale:0.7;
+    transition: scale 0.4s linear;
+}
+.row:hover{
+    scale:1;
+}
 
 .certificate {
     padding: 60px 0;
@@ -102,6 +122,9 @@ h3 {
 
 .skills {
     padding: 60px 0;
+    background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-size: cover;
 } 
 .skills img.html {
     width: 90px;
@@ -141,6 +164,9 @@ h3 {
 
 .contact {
     padding: 60px 0;
+    background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-size: cover;
 }
 .contact .ConIcon {
     width: 35px;
