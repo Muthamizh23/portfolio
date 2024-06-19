@@ -71,7 +71,9 @@ h3 {
 .aboutMe {
     padding: 60px 0;
     color:#000000ef;
-    background-image: url(../images/background\ gif.mp4);
+    background-image: url(../images/Gif.mp4);
+    background-position: center;
+    background-size: cover;
     animation-name: colorChange;
     animation-duration: 4s;
 } 
@@ -108,11 +110,11 @@ h3 {
     font-family: 'poppins-extraBold';
     font-size: 20px;
 }
-.row{
+#educationRow{
     scale:0.7;
     transition: scale 0.4s linear;
 }
-.row:hover{
+#educationRow:hover{
     scale:1;
 }
 
