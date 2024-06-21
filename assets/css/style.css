@@ -59,7 +59,7 @@ h3 {
     vertical-align: middle;
 }
 .banner h1 {
-    font-family: 'poppins-extraBold';
+    font-family: 'poppins-extraBold';   
 }
 .banner h4 {
     font-family: 'poppins-semiBold';
@@ -71,18 +71,7 @@ h3 {
 .aboutMe {
     padding: 60px 0;
     color:#000000ef;
-    background-image: url(../images/Gif.mp4);
-    background-position: center;
-    background-size: cover;
-    animation-name: colorChange;
-    animation-duration: 4s;
 } 
-@keyframes colorChange{
-    0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: blue;}
-    100% {color: green;}
-}
 .aboutMe .linkBtn a {
     color: #fff;
 }
@@ -110,12 +99,12 @@ h3 {
     font-family: 'poppins-extraBold';
     font-size: 20px;
 }
-#educationRow{
-    scale:0.7;
+.eduBox{
+    scale:0.9;
     transition: scale 0.4s linear;
 }
-#educationRow:hover{
-    scale:1;
+.eduBox:hover{
+    scale:1.1;
 }
 
 .certificate {
