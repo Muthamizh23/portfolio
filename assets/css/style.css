@@ -38,7 +38,7 @@ h2 {
 }
 h3 {
     font-family: 'poppins-bold';
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
@@ -134,6 +134,26 @@ h3 {
 }
 .skills img.sql {
     width: 75px;
+}
+
+.project {
+    padding: 60px 0;
+    color:#000000ef;
+} 
+.project .linkBtn a {
+    color: #fff;
+}
+.project h4 {
+    font-family: 'poppins-bold';
+    font-size: 20px;
+}
+.project ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+.project ul li:first-child{
+    margin-bottom: 5px;
 }
 
 .tools {

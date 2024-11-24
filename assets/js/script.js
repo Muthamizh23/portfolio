@@ -51,7 +51,7 @@ ScrollReveal().reveal(".skills h2", {
 });
 
 // tools
-ScrollReveal().reveal(".tools h2", {
+ScrollReveal().reveal(".project h2", {
   ...scrollRevealOption,
   delay: 500,
 });
